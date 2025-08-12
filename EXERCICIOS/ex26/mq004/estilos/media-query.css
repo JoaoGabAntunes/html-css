@@ -18,7 +18,14 @@
     }
 
     main{
+        width: 90%;
         border: 2px solid black;
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+        text-decoration: underline;
+    
     }
 
     main h1{
