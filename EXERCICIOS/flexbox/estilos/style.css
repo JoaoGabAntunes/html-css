@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+background-color: lightgrey;
+padding: 10px;
+}
+
+div#c1{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: flex-end;
+      
+}
+
+main > div > div{
+    margin: 20px;
+}
+
+div#i2 > img{
+    border: 1px solid black;
+}
+
+div#i1, div#i3{
+    flex: 1 1 400px;
+}
+
+div#c2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+div#i2, div#i4{
+    flex: 0 1 400px;
+}
+
